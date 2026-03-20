@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE = 'http://localhost:8000'
+const BASE = 'https://smart-grid-ids.onrender.com'
 
 const api = axios.create({
   baseURL: BASE,
